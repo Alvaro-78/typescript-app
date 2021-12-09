@@ -1,4 +1,5 @@
 import Counter from './components/Counter';
+import Form from './components/Form';
 import TimeFather from './components/TimeFather';
 import User from './components/User';
 
@@ -14,6 +15,12 @@ function App() {
 
 			<h2>useEffect - useRef</h2>
 			<TimeFather />
+			<hr />
+
+			<h2>customHooks</h2>
+			<Form />
+
+			<br />
 		</>
 	);
 }
